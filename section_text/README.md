@@ -55,3 +55,51 @@ We can also put a line in the text with the `~` key
 `You are ~~cool~~.` => You are ~~cool~~.
 
 As you may notice we use 2 sets of `~` but if you use one it will not work so no all the characters that you repeat or not on `markdown` will have some effect.
+
+## Heading in markdown
+
+There are 2 ways to do a `heading` on `markdown`. The first way is to use a `hashtag`. If you want an `h1` you will add this:
+
+`# My title`
+
+the output will be:
+# My title
+
+If you want an `h2` you just need to add 2 `#`
+
+`## My h2 title`
+
+the output will be:
+
+## My h2 title
+
+So you will continue putting `#` on your titles until the `h6` tag. One thing of those `headings` is that if you put this `markdown` on `GitHub` or anything like that it will automatically add an `id` to the `heading` and you can link to them each.
+
+The other way to do a `heading` is putting at least 3 equals (`===`) bellow the `heading` it will turn into an `h1`.
+
+```
+Heading 1
+===
+```
+
+The output will be:
+
+Heading 1
+===
+
+And if you put at least 3 dashes below the `heading` will be turned into an `h2`
+
+```
+Heading 2
+---
+```
+
+The output will be:
+
+Heading 2
+---
+
+But this way it will only function with the `h1` and `h2` that is why we prefer the `#` version
+
+
+
